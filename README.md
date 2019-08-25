@@ -14,7 +14,7 @@ You're going to be building a CLI for a single turn of Tic Tac Toe.
 A turn of Tic Tac Toe is composed of the following routine:
 
 1. Asking the user for their move by position 1-9.
-2. Receiving the user input.
+2. Receiving the user input. #gets.chomp or #gets.strip
 3. Convert position to an index.
 4. If the move is valid, make the move and display the board to the user.
 5. If the move is invalid, ask for a new move until a valid move is received.
@@ -405,4 +405,3 @@ Another issue, besides only marking Xs as described above, is that the game play
 Even with these deficiencies, this `#turn` method means you are very close to building a complete Tic Tac Toe game. Get excited!
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ttt-8-turn' title='Building a Tic Tac Toe Turn'>Building a Tic Tac Toe Turn</a> on Learn.co and start learning to code for free.</p>
-
